@@ -1,4 +1,147 @@
-.container {
-    max-width: 1320px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 400px;
+    height: 700px;
     margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #333;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.Box1:link, .Box1:visited {
+  width: 380px;
+  height: 125px;
+  background-color: #81137c;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+  border-radius: 12px;
+  transition: 0.1s ease-in-out;
+
+
+}
+
+.Box1:hover, .Box1:active {
+  background-color: rgb(219, 98, 235);
+  transform: scale(1.05);
+  transform: scale(0.95);
+}
+
+
+.Box2:link, .Box2:visited {
+  width: 380px;
+  height: 125px;
+  background-color: #81137c;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+  border-radius: 12px;
+  transition: 0.1s ease-in-out;
+
+}
+
+.Box2:hover, .Box2:active {
+  background-color: rgb(219, 98, 235);
+  transform: scale(1.05);
+  transform: scale(0.95);
+}
+
+
+.Box3:link, .Box3:visited {
+  width: 380px;
+  height: 125px;
+  background-color: #81137c;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+  border-radius: 12px;
+  transition: 0.1s ease-in-out;
+ 
+}
+
+.Box3:hover, .Box3:active {
+  background-color: rgb(219, 98, 235);
+  transform: scale(1.05);
+  transform: scale(0.95);
+}
+
+
+
+.TextHead {
+    color: #fff;
+    text-align: center;
+    /* background-color: #706C71; */
+    padding: 1px;
+
+    margin-top: 80px;
+
+
+}
+
+body {
+    background-color: #2E2E30;
+}
+
+/* .Amhome {
+    width: 300px;
+    height: 100px;
+    background-color: #aaa5aa;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    border-radius: 12px;
+    transition: 0.1s ease-in-out;
+} */
+
+.Amhome:hover, .Amhome:active {
+  background-color: rgb(193, 188, 194);
+  transform: scale(1.05);
+  transform: scale(0.95);
+}
+
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-content: center;  
+  margin-top: 80px;
+}
+
+/* แต่งสไตล์กล่องลิงก์ (ตัวอย่าง) */
+.Amhome2 {
+  width: 380px;
+  height: 125px;
+  font-size: 40px;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #858a8f;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.1s ease-in-out;
+}
+
+.Amhome2:hover, .Amhome2:active {
+  background-color: rgb(231, 228, 231);
+  transform: scale(1.05);
+  transform: scale(0.95);
 }
